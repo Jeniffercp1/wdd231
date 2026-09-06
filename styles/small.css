@@ -56,15 +56,16 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  font-size: 1.2rem;
+  gap: 0.65rem;
+  font-size: 1.15rem;
   font-weight: 800;
   text-decoration: none;
 }
 
 .brand img {
-  width: 48px;
+  width: 132px;
   height: 48px;
+  object-fit: contain;
 }
 
 .menu-toggle {
@@ -170,23 +171,31 @@ section h2 {
   padding: 1rem;
 }
 
-.course-work ul {
-  margin: 0;
-  padding-left: 1.2rem;
+.about-me p {
+  margin: 0 0 0.9rem;
 }
 
-.location p,
+.about-me p:last-child {
+  margin-bottom: 0;
+}
+
 .certificate p {
   margin-top: 0;
 }
 
-.location-image {
+.student-photo .section-body {
+  display: grid;
+  justify-items: center;
+}
+
+.student-image {
   display: block;
-  width: 100%;
-  margin-bottom: 1rem;
+  width: min(100%, 260px);
+  aspect-ratio: 3 / 4;
   border: 1px solid var(--border-color);
   border-radius: 8px;
   object-fit: cover;
+  object-position: center;
 }
 
 .filters {

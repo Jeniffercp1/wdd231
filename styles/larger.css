@@ -37,6 +37,11 @@
     align-items: stretch;
   }
 
+  .student-photo .section-body {
+    height: calc(100% - 3rem);
+    align-content: center;
+  }
+
   .certificate {
     grid-column: 1 / -1;
   }

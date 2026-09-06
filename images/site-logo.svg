@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
-  <title id="title">WDD 231 logo</title>
-  <desc id="desc">A stylized code window with the letters WDD.</desc>
-  <rect width="96" height="96" rx="18" fill="#0f3d3e"/>
-  <path d="M18 27a9 9 0 0 1 9-9h42a9 9 0 0 1 9 9v42a9 9 0 0 1-9 9H27a9 9 0 0 1-9-9z" fill="#f7f3e8"/>
-  <path d="M18 31h60v10H18z" fill="#c85c36"/>
-  <circle cx="27" cy="36" r="2.5" fill="#f7f3e8"/>
-  <circle cx="35" cy="36" r="2.5" fill="#f7f3e8"/>
-  <circle cx="43" cy="36" r="2.5" fill="#f7f3e8"/>
-  <path d="M36 57 28 49l8-8 4 4-4 4 4 4zm24 0-4-4 4-4-4-4 4-4 8 8zm-14 4-5-2 9-22 5 2z" fill="#0f3d3e"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" role="img" aria-labelledby="title desc">
+  <title id="title">CAP Company logo</title>
+  <desc id="desc">Elegant CAP Company wordmark with a monogram seal.</desc>
+  <rect width="220" height="80" rx="8" fill="#0f3d3e"/>
+  <circle cx="42" cy="40" r="24" fill="#f7f3e8"/>
+  <circle cx="42" cy="40" r="18" fill="none" stroke="#a94724" stroke-width="2"/>
+  <text x="42" y="47" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#0f3d3e">CAP</text>
+  <text x="78" y="37" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#f7f3e8">CAP</text>
+  <text x="79" y="57" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#f2b544">COMPANY</text>
 </svg>

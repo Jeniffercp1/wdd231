@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="WDD 231 coursework home page for Jeniffer Carrillo.">
+  <meta name="description" content="Home page for Jeniffer Carrillo, a law professional from Machala, Ecuador studying web programming and design.">
   <meta name="author" content="Jeniffer Carrillo">
   <title>WDD 231 - Jeniffer Carrillo</title>
   <link rel="icon" href="images/site-logo.svg" type="image/svg+xml">
@@ -20,16 +20,16 @@
   <header class="site-header">
     <div class="top-bar">
       <a class="brand" href="index.html">
-        <img src="images/site-logo.svg" alt="WDD 231 site logo" width="48" height="48">
-        <span>Jeniffer Carrillo</span>
+        <img src="images/site-logo.svg" alt="CAP Company logo" width="132" height="48">
+        <span>CAP Company</span>
       </a>
       <button id="menuButton" class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primaryNav" aria-expanded="false"></button>
     </div>
     <nav id="primaryNav" class="site-nav">
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="chamber/index.html">Chamber of Commerce</a></li>
-        <li><a href="final/index.html">Final</a></li>
+        <li><a href="chamber/index.html">Chamber Project</a></li>
+        <li><a href="final/index.html">Final Project</a></li>
       </ul>
     </nav>
   </header>
@@ -37,34 +37,30 @@
   <main>
     <h1>Home</h1>
     <div class="content-grid">
-      <section class="course-work">
-        <h2>Course Work</h2>
+      <section class="about-me">
+        <h2>About Me</h2>
         <div class="section-body">
-          <ul>
-            <li>Practice responsive layouts for course pages.</li>
-            <li>Use JavaScript to add dynamic content.</li>
-            <li>Prepare projects for GitHub Pages publishing.</li>
-          </ul>
+          <p>My name is Jeniffer Carrillo. I am from Machala, Ecuador, and I am a lawyer who is now studying programming through BYU-Idaho.</p>
+          <p>I enjoy design because it gives me a creative way to organize ideas, solve problems, and build useful digital experiences. I am excited to keep growing in web development while combining my professional background with new technology skills.</p>
+          <p>I am also close to earning my first BYU certificate in Web and Computer Programming, which motivates me to continue learning and creating better projects.</p>
         </div>
       </section>
 
-      <section class="location">
-        <h2>Machala, Ecuador</h2>
+      <section class="student-photo">
+        <h2>Student Photo</h2>
         <div class="section-body">
-          <img class="location-image" src="images/machala-plaza.jpeg" alt="Central plaza in Machala, Ecuador with palm trees and city buildings" width="783" height="391" loading="lazy">
-          <p>Machala is known as the Banana Capital of the World and is located near Ecuador's southern coast.</p>
-          <p>It is a busy city with warm weather, coastal food, and access to important agricultural and port activity.</p>
+          <img class="student-image" src="images/jeniffer-carrillo.jpg" alt="Jeniffer Carrillo standing in a garden with palm trees" width="420" height="560" loading="lazy">
         </div>
       </section>
 
       <section class="certificate">
-        <h2>Web and Computer Programming Certificate</h2>
+        <h2>Web Certificate Courses</h2>
         <div class="section-body">
           <p>Completed courses are highlighted below. Use the buttons to filter the certificate requirements.</p>
           <div class="filters" role="group" aria-label="Course filters">
             <button class="active" type="button" data-filter="all">All</button>
-            <button type="button" data-filter="WDD">WDD</button>
             <button type="button" data-filter="CSE">CSE</button>
+            <button type="button" data-filter="WDD">WDD</button>
           </div>
           <div id="courseList" class="course-list"></div>
           <p id="creditTotal" class="credit-total"></p>
