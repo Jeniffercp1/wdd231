@@ -6,5 +6,5 @@ if (currentYear) {
 }
 
 if (lastModified) {
-  lastModified.textContent = `Last modified: ${document.lastModified}`;
+  lastModified.textContent = `Last Modified: ${document.lastModified}`;
 }

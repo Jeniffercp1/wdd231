@@ -6,22 +6,87 @@
   <meta name="description" content="WDD 231 coursework home page for Jeniffer Carrillo.">
   <meta name="author" content="Jeniffer Carrillo">
   <title>WDD 231 - Jeniffer Carrillo</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/main.js" defer></script>
+  <link rel="icon" href="images/site-logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>WDD 231</h1>
+  <header class="site-header">
+    <div class="top-bar">
+      <a class="brand" href="index.html">
+        <img src="images/site-logo.svg" alt="WDD 231 site logo" width="48" height="48">
+        <span>Jeniffer Carrillo</span>
+      </a>
+      <button id="menuButton" class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primaryNav" aria-expanded="false"></button>
+    </div>
+    <nav id="primaryNav" class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Chamber of Commerce</a></li>
+        <li><a href="#">Final</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <h2>Home</h2>
-    <p>Welcome to my WDD 231 coursework site.</p>
+    <h1>Home</h1>
+    <div class="content-grid">
+      <section class="course-work">
+        <h2>Course Work</h2>
+        <div class="section-body">
+          <ul>
+            <li>Practice responsive layouts for course pages.</li>
+            <li>Use JavaScript to add dynamic content.</li>
+            <li>Prepare projects for GitHub Pages publishing.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="location">
+        <h2>Machala, Ecuador</h2>
+        <div class="section-body">
+          <p>Machala is known as the Banana Capital of the World and is located near Ecuador's southern coast.</p>
+          <p>It is a busy city with warm weather, coastal food, and access to important agricultural and port activity.</p>
+        </div>
+      </section>
+
+      <section class="certificate">
+        <h2>Web and Computer Programming Certificate</h2>
+        <div class="section-body">
+          <p>Completed courses are highlighted below. Use the buttons to filter the certificate requirements.</p>
+          <div class="filters" aria-label="Course filters">
+            <button class="active" type="button" data-filter="all">All</button>
+            <button type="button" data-filter="WDD">WDD</button>
+            <button type="button" data-filter="CSE">CSE</button>
+          </div>
+          <div id="courseList" class="course-list"></div>
+          <p id="creditTotal" class="credit-total"></p>
+        </div>
+      </section>
+    </div>
   </main>
 
-  <footer>
-    <p>&copy; <span id="currentyear"></span> Jeniffer Carrillo</p>
-    <p id="lastModified"></p>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="social-links">
+        <a href="https://github.com/Jeniffercp1" target="_blank" rel="noopener" aria-label="GitHub profile">GH</a>
+        <a href="https://ec.linkedin.com/in/jeniffer-carrillo-2b04aa3a8" target="_blank" rel="noopener" aria-label="LinkedIn profile">in</a>
+        <a href="https://github.com/Jeniffercp1/wdd231" target="_blank" rel="noopener" aria-label="WDD 231 repository">W</a>
+      </div>
+      <div>
+        <p>&copy; <span id="currentyear"></span> Jeniffer Carrillo</p>
+        <p>Ecuador</p>
+      </div>
+      <div>
+        <p id="lastModified"></p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
