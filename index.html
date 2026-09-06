@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,9 +27,9 @@
     </div>
     <nav id="primaryNav" class="site-nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Chamber of Commerce</a></li>
-        <li><a href="#">Final</a></li>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="chamber/index.html">Chamber of Commerce</a></li>
+        <li><a href="final/index.html">Final</a></li>
       </ul>
     </nav>
   </header>
@@ -51,6 +51,7 @@
       <section class="location">
         <h2>Machala, Ecuador</h2>
         <div class="section-body">
+          <img class="location-image" src="images/machala.svg" alt="Illustration of Machala with bananas, mountains, and coastal sun" width="420" height="260" loading="lazy">
           <p>Machala is known as the Banana Capital of the World and is located near Ecuador's southern coast.</p>
           <p>It is a busy city with warm weather, coastal food, and access to important agricultural and port activity.</p>
         </div>
@@ -75,9 +76,19 @@
   <footer class="site-footer">
     <div class="footer-grid">
       <div class="social-links">
-        <a href="https://github.com/Jeniffercp1" target="_blank" rel="noopener" aria-label="GitHub profile">GH</a>
-        <a href="https://ec.linkedin.com/in/jeniffer-carrillo-2b04aa3a8" target="_blank" rel="noopener" aria-label="LinkedIn profile">in</a>
-        <a href="https://github.com/Jeniffercp1/wdd231" target="_blank" rel="noopener" aria-label="WDD 231 repository">W</a>
+        <a href="https://github.com/Jeniffercp1" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.4-1.7-1.4-1.7-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/>
+          </svg>
+        </a>
+        <a href="https://ec.linkedin.com/in/jeniffer-carrillo-2b04aa3a8" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M20.5 20.5h-3.6v-5.7c0-1.4 0-3.1-1.9-3.1s-2.2 1.5-2.2 3v5.8H9.2V8.9h3.4v1.6h.1a3.7 3.7 0 0 1 3.4-1.9c3.6 0 4.3 2.4 4.3 5.5v6.4ZM5.2 7.3a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2Zm1.8 13.2H3.4V8.9H7v11.6ZM22.3 0H1.7C.8 0 0 .7 0 1.6v20.7c0 .9.8 1.7 1.7 1.7h20.6c.9 0 1.7-.8 1.7-1.7V1.6c0-.9-.8-1.6-1.7-1.6Z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/Jeniffercp1/wdd231" target="_blank" rel="noopener" aria-label="WDD 231 repository">
+          <span aria-hidden="true">W</span>
+        </a>
       </div>
       <div>
         <p>&copy; <span id="currentyear"></span> Jeniffer Carrillo</p>

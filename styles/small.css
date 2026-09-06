@@ -180,6 +180,15 @@ section h2 {
   margin-top: 0;
 }
 
+.location-image {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -272,6 +281,12 @@ section h2 {
   border-radius: 50%;
   font-weight: 900;
   text-decoration: none;
+}
+
+.social-links svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
 }
 
 .social-links a:hover,

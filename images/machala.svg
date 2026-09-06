@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-labelledby="title desc">
+  <title id="title">Machala Ecuador illustration</title>
+  <desc id="desc">A sunny coastal scene with bananas, green hills, and city buildings.</desc>
+  <rect width="420" height="260" rx="18" fill="#f7f3e8"/>
+  <circle cx="348" cy="58" r="34" fill="#f2b544"/>
+  <path d="M0 121c43-32 83-31 122 2 39-32 78-31 119 2 48-44 104-40 179 14v121H0z" fill="#dff1e7"/>
+  <path d="M0 151c48-38 100-39 155-3 61-50 133-42 217 24l48 39v49H0z" fill="#8abf8f"/>
+  <path d="M0 192h420v68H0z" fill="#0f3d3e"/>
+  <path d="M34 177h46v83H34zm62-28h52v111H96zm70 45h46v66h-46zm62-35h54v101h-54zm72 22h46v79h-46z" fill="#ffffff"/>
+  <path d="M46 191h10v15H46zm0 27h10v15H46zm24-27h10v15H70zm37-26h11v15h-11zm0 28h11v15h-11zm0 28h11v15h-11zm28-56h11v15h-11zm42 45h10v15h-10zm63-34h11v15h-11zm0 27h11v15h-11zm72-6h10v15h-10zm0 26h10v15h-10z" fill="#c85c36"/>
+  <path d="M135 124c28 5 54 24 76 57-38-1-65-16-76-57Z" fill="#f2b544"/>
+  <path d="M130 131c26 15 42 42 47 82-36-15-52-42-47-82Z" fill="#f5ca58"/>
+  <path d="M151 121c30-6 59 2 88 24-37 15-67 7-88-24Z" fill="#f2b544"/>
+  <path d="M135 124c23 27 35 57 36 91" fill="none" stroke="#0f3d3e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M82 136c16-24 37-40 63-48" fill="none" stroke="#0f3d3e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M78 136c23 7 43 22 59 46-33-2-53-17-59-46Z" fill="#f2b544"/>
+  <path d="M91 126c25-2 48 7 69 27-31 10-54 1-69-27Z" fill="#f5ca58"/>
+</svg>
