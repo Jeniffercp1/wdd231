@@ -124,9 +124,9 @@ main {
   min-height: 230px;
   margin-bottom: 1rem;
   padding: 1.25rem;
-  color: #fff;
+  color: var(--text);
   background:
-    linear-gradient(90deg, rgb(9 40 40 / 90%), rgb(9 40 40 / 56%)),
+    linear-gradient(90deg, rgb(246 242 233 / 96%), rgb(246 242 233 / 86%)),
     url("../images/chamber-hero.svg") center / cover;
   border-radius: 8px;
   align-items: end;
@@ -134,7 +134,7 @@ main {
 
 .eyebrow {
   margin: 0 0 0.35rem;
-  color: #f6d891;
+  color: var(--primary);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -148,6 +148,7 @@ h2,
 
 h1 {
   margin: 0 0 0.65rem;
+  color: var(--primary-dark);
   font-size: 2rem;
   line-height: 1.15;
 }
