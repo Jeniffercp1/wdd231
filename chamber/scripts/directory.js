@@ -34,11 +34,9 @@ function buildMemberCard(member) {
   const phone = document.createElement("p");
   phone.textContent = member.phone;
 
-  const website = document.createElement("a");
-  website.href = member.website;
-  website.target = "_blank";
-  website.rel = "noopener";
-  website.textContent = member.website.replace("https://", "");
+  const email = document.createElement("a");
+  email.href = `mailto:${member.email}`;
+  email.textContent = member.email;
 
   const level = document.createElement("span");
   level.className = "member-level";
@@ -47,7 +45,7 @@ function buildMemberCard(member) {
   const description = document.createElement("p");
   description.textContent = member.description;
 
-  card.append(image, heading, address, phone, website, level, description);
+  card.append(image, heading, address, phone, email, level, description);
   return card;
 }
 
