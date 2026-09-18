@@ -57,7 +57,7 @@ async function getMembers() {
   }
 
   try {
-    const response = await fetch("data/members.json");
+    const response = await fetch("data/members.json?v=company-links");
 
     if (!response.ok) {
       throw new Error("Unable to load member data.");
