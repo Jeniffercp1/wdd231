@@ -39,6 +39,14 @@
     align-items: center;
   }
 
+  .home-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .spotlight-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .view-controls {
     min-width: 220px;
   }
