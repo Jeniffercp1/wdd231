@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Machala business district</title>
+  <desc id="desc">Abstract coastal city scene with palms, buildings, and warm sky.</desc>
+  <rect width="1200" height="600" fill="#6fb6d8"/>
+  <circle cx="1010" cy="115" r="65" fill="#f1c66b"/>
+  <path d="M0 355c166-115 304-107 416 24 112-116 260-126 444-30 112 58 225 62 340 12v239H0z" fill="#92b985"/>
+  <path d="M0 420h1200v180H0z" fill="#123d3d"/>
+  <path d="M105 286h95v314h-95zm140-92h112v406H245zm158 154h94v252h-94zm147-112h128v364H550zm180 72h92v292h-92zm141-126h124v418H871z" fill="#f6f2e9"/>
+  <path d="M128 319h18v26h-18zm0 58h18v26h-18zm0 58h18v26h-18zm147-90h20v30h-20zm0 66h20v30h-20zm0 66h20v30h-20zm303-108h22v33h-22zm0 70h22v33h-22zm322-132h22v33h-22zm0 72h22v33h-22zm0 72h22v33h-22z" fill="#c39a49"/>
+  <path d="M1010 600V270" stroke="#3c5b4b" stroke-width="18"/>
+  <path d="M1010 283c-74 25-122 68-143 129 62-14 111-57 143-129Zm0-5c70 18 120 56 150 115-68-7-119-46-150-115Zm-4-3c-55-42-85-94-89-156 56 31 87 83 89 156Zm10 0c52-44 107-63 166-57-36 49-91 68-166 57Z" fill="#2c7b4b"/>
+</svg>

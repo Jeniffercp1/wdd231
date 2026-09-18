@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Puerto Verde Logistics",
+    "address": "Av. Bolivar Madero Vargas 1201, Machala",
+    "phone": "+593 7 292 1100",
+    "website": "https://example.com/puerto-verde",
+    "image": "puerto-verde.svg",
+    "membershipLevel": 3,
+    "description": "Freight coordination and export support for regional agricultural producers."
+  },
+  {
+    "name": "Oro Tech Studio",
+    "address": "Calle Rocafuerte 805, Machala",
+    "phone": "+593 7 298 2244",
+    "website": "https://example.com/oro-tech",
+    "image": "oro-tech.svg",
+    "membershipLevel": 2,
+    "description": "Web design, software consulting, and digital tools for small businesses."
+  },
+  {
+    "name": "Banana Coast Tours",
+    "address": "Av. 25 de Junio 540, Machala",
+    "phone": "+593 99 412 8801",
+    "website": "https://example.com/banana-coast",
+    "image": "banana-coast.svg",
+    "membershipLevel": 3,
+    "description": "Local tourism experiences focused on culture, food, and coastal destinations."
+  },
+  {
+    "name": "Carrillo Legal Group",
+    "address": "Calle Guayas y Pichincha, Machala",
+    "phone": "+593 7 293 9080",
+    "website": "https://example.com/carrillo-legal",
+    "image": "carrillo-legal.svg",
+    "membershipLevel": 2,
+    "description": "Legal consulting for entrepreneurs, families, and commercial organizations."
+  },
+  {
+    "name": "Machala Fresh Market",
+    "address": "Mercado Central Local 18, Machala",
+    "phone": "+593 98 220 1400",
+    "website": "https://example.com/fresh-market",
+    "image": "fresh-market.svg",
+    "membershipLevel": 1,
+    "description": "Fresh produce supplier serving restaurants, shops, and local families."
+  },
+  {
+    "name": "Pacific Bloom Events",
+    "address": "Av. Las Palmeras 230, Machala",
+    "phone": "+593 99 730 5540",
+    "website": "https://example.com/pacific-bloom",
+    "image": "pacific-bloom.svg",
+    "membershipLevel": 1,
+    "description": "Event planning, floral design, and business reception coordination."
+  },
+  {
+    "name": "El Oro Finance",
+    "address": "Centro Comercial Unioro, Machala",
+    "phone": "+593 7 299 6711",
+    "website": "https://example.com/el-oro-finance",
+    "image": "el-oro-finance.svg",
+    "membershipLevel": 2,
+    "description": "Financial planning, bookkeeping, and growth guidance for local companies."
+  }
+]
