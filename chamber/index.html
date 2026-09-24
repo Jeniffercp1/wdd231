@@ -7,7 +7,7 @@
   <meta name="author" content="Jeniffer Carrillo">
   <meta property="og:title" content="Machala Chamber of Commerce">
   <meta property="og:description" content="Connect with Machala businesses, events, and chamber member opportunities.">
-  <meta property="og:image" content="https://jeniffercp1.github.io/wdd231/chamber/images/chamber-hero.svg">
+  <meta property="og:image" content="https://jeniffercp1.github.io/wdd231/chamber/images/el-oro-commerce.webp">
   <meta property="og:url" content="https://jeniffercp1.github.io/wdd231/chamber/">
   <meta property="og:type" content="website">
   <title>Machala Chamber of Commerce</title>
@@ -35,42 +35,48 @@
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="directory.html">Directory</a></li>
-        <li><a href="#">Discover</a></li>
         <li><a href="#">Join</a></li>
+        <li><a href="#">Discover</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section class="hero home-hero">
-      <div>
+      <img src="images/el-oro-commerce.webp" alt="Bananas and shrimp prepared for commerce in El Oro, Ecuador" width="1400" height="583">
+      <div class="hero-content">
         <p class="eyebrow">Machala Business Network</p>
-        <h1>Growing commerce in El Oro</h1>
-        <p>We connect entrepreneurs, professionals, and local companies with opportunities to collaborate, promote, and strengthen Machala's economy.</p>
+        <h1>Grow Your Business in El Oro</h1>
+        <p>Connect with banana, shrimp, service, and trade businesses that strengthen Machala and the province of El Oro.</p>
         <a class="cta-link" href="#">Join the Chamber</a>
       </div>
-      <img src="images/chamber-hero.svg" alt="Machala city commerce illustration" width="540" height="320">
     </section>
 
     <div class="home-grid">
       <section class="info-card events">
         <h2>Current Events</h2>
         <article>
-          <h3>Business Networking Breakfast</h3>
-          <p>Friday, September 25 at 8:00 a.m. Meet local owners and share new services for the fall season.</p>
+          <h3>Machala Business Networking Night</h3>
+          <p><strong>September 25, 2026 - 6:00 PM</strong></p>
+          <p>Meet local entrepreneurs, exporters, and service providers from El Oro.</p>
         </article>
         <article>
-          <h3>Export Readiness Workshop</h3>
-          <p>Learn practical steps for documentation, logistics, and international customer communication.</p>
+          <h3>Banana and Shrimp Export Forum</h3>
+          <p><strong>October 3, 2026 - 9:00 AM</strong></p>
+          <p>Learn practical strategies for logistics, quality control, and international trade.</p>
         </article>
       </section>
 
       <section class="info-card weather">
-        <h2>Weather</h2>
-        <p class="weather-temp">29&deg;C</p>
-        <p>Partly cloudy in Machala</p>
-        <p>Humidity: 72%</p>
-        <p>Wind: 11 km/h</p>
+        <h2>Current Weather</h2>
+        <div id="currentWeather" class="weather-current">
+          <p class="weather-status">Loading weather data...</p>
+        </div>
+      </section>
+
+      <section class="info-card forecast">
+        <h2>3-Day Forecast</h2>
+        <ul id="forecastList" class="forecast-list"></ul>
       </section>
     </div>
 

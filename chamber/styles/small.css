@@ -120,30 +120,44 @@ main {
 }
 
 .hero {
-  display: grid;
-  gap: 1rem;
-  min-height: 230px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  min-height: 420px;
   margin-bottom: 1rem;
-  padding: 1.25rem;
-  color: var(--text);
-  background: var(--surface);
+  color: #fff;
+  background: var(--primary-dark);
   border-radius: 8px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
-  align-items: center;
 }
 
 .hero img {
+  display: block;
   width: 100%;
-  max-height: 260px;
-  object-fit: contain;
-  border-radius: 6px;
-  background: var(--background);
+  height: 420px;
+  object-fit: cover;
+}
+
+.hero::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, rgb(9 40 40 / 90%), rgb(9 40 40 / 46%), rgb(9 40 40 / 12%));
+}
+
+.hero-content {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 1.25rem;
+  width: min(620px, calc(100% - 2.5rem));
+  transform: translateY(-50%);
 }
 
 .eyebrow {
   margin: 0 0 0.35rem;
-  color: var(--primary);
+  color: #f6d891;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -157,12 +171,12 @@ h2,
 
 h1 {
   margin: 0 0 0.65rem;
-  color: var(--primary-dark);
+  color: #fff;
   font-size: 2rem;
   line-height: 1.15;
 }
 
-.hero p:last-child {
+.hero-content p {
   max-width: 650px;
   margin: 0;
   font-size: 1.05rem;
@@ -195,7 +209,7 @@ h1 {
 }
 
 .info-card {
-  padding: 1rem;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
@@ -203,13 +217,15 @@ h1 {
 }
 
 .info-card h2 {
-  margin: 0 0 0.8rem;
-  color: var(--primary);
+  margin: 0;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  background: var(--primary);
   font-size: 1.35rem;
 }
 
 .events article {
-  padding: 0.8rem 0;
+  padding: 1rem;
   border-top: 1px solid var(--border);
 }
 
@@ -236,9 +252,41 @@ h1 {
   line-height: 1;
 }
 
+.weather-current {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem;
+}
+
+.weather-current img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-status {
+  font-weight: 700;
+}
+
+.forecast-list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+}
+
+.forecast-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--border);
+}
+
 .spotlight-grid {
   display: grid;
   gap: 1rem;
+  padding: 1rem;
 }
 
 .spotlight-card {
