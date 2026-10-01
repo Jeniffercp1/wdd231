@@ -1,7 +1,7 @@
 const spotlightCards = document.querySelector("#spotlightCards");
 const currentWeather = document.querySelector("#currentWeather");
 const forecastList = document.querySelector("#forecastList");
-const openWeatherApiKey = "YOUR_OPENWEATHERMAP_API_KEY";
+const openWeatherApiKey = "";
 const latitude = -3.2581;
 const longitude = -79.9554;
 
@@ -135,7 +135,7 @@ async function showWeather() {
     return;
   }
 
-  if (openWeatherApiKey === "YOUR_OPENWEATHERMAP_API_KEY") {
+  if (!openWeatherApiKey) {
     showWeatherError("Machala, Ecuador");
     return;
   }
