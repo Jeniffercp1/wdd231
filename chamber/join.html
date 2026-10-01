@@ -47,46 +47,38 @@
       <section class="join-form-card">
         <h2>Membership Application</h2>
         <form method="get" action="thankyou.html">
-          <label>
-            First Name
-            <input type="text" name="firstName" title="Enter your first name" autocomplete="given-name" required>
-          </label>
-          <label>
-            Last Name
-            <input type="text" name="lastName" title="Enter your last name" autocomplete="family-name" required>
-          </label>
-          <label>
-            Organization Title
-            <input type="text" name="organizationTitle" title="Enter your organization title using at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}">
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" title="Enter your email address" autocomplete="email" placeholder="name@business.com" required>
-          </label>
-          <label>
-            Mobile Phone
-            <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel" required>
-          </label>
-          <label>
-            Business Name
-            <input type="text" name="organization" title="Enter your business or organization name" autocomplete="organization" required>
-          </label>
-          <label>
-            Membership Level
-            <select name="membership" title="Choose a membership level" required>
+          <label for="firstName">First Name</label>
+          <input id="firstName" type="text" name="firstName" title="Enter your first name" autocomplete="given-name" required>
+
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" name="lastName" title="Enter your last name" autocomplete="family-name" required>
+
+          <label for="organizationTitle">Organization Title</label>
+          <input id="organizationTitle" type="text" name="organizationTitle" title="Enter your organization title using at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}">
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" title="Enter your email address" autocomplete="email" placeholder="name@business.com" required>
+
+          <label for="phone">Mobile Phone</label>
+          <input id="phone" type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel" required>
+
+          <label for="organization">Business Name</label>
+          <input id="organization" type="text" name="organization" title="Enter your business or organization name" autocomplete="organization" required>
+
+          <label for="membership">Membership Level</label>
+          <select id="membership" name="membership" title="Choose a membership level" required>
               <option value="">Choose a level</option>
               <option value="np">NP Membership</option>
               <option value="bronze">Bronze Membership</option>
               <option value="silver">Silver Membership</option>
               <option value="gold">Gold Membership</option>
-            </select>
-          </label>
-          <label>
-            Business Description
-            <textarea name="description" title="Describe your business or organization" rows="5"></textarea>
-          </label>
+          </select>
+
+          <label for="description">Business Description</label>
+          <textarea id="description" name="description" title="Describe your business or organization" rows="5"></textarea>
+
           <input id="timestamp" type="hidden" name="timestamp">
-          <input class="form-button" type="submit" value="Send Application">
+          <button class="form-button" type="submit">Send Application</button>
         </form>
       </section>
 
