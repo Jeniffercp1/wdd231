@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Machala Chamber of Commerce membership application page.">
+  <meta name="author" content="Jeniffer Carrillo">
+  <meta property="og:title" content="Join the Machala Chamber of Commerce">
+  <meta property="og:description" content="Apply for a Machala Chamber of Commerce membership and review available membership levels.">
+  <meta property="og:image" content="https://jeniffercp1.github.io/wdd231/chamber/images/el-oro-commerce.webp">
+  <meta property="og:url" content="https://jeniffercp1.github.io/wdd231/chamber/join.html">
+  <meta property="og:type" content="website">
+  <title>Join the Machala Chamber of Commerce</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/join.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html">
+        <img src="images/favicon.svg" alt="Machala Chamber of Commerce logo" width="56" height="56">
+        <span>Machala Chamber of Commerce</span>
+      </a>
+      <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primaryNav" aria-expanded="false"></button>
+    </div>
+    <nav id="primaryNav" class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html" aria-current="page">Join</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Join the Chamber</h1>
+    <div class="join-layout">
+      <section class="join-form-card">
+        <h2>Membership Application</h2>
+        <form method="get" action="thankyou.html">
+          <label>
+            First Name
+            <input type="text" name="firstName" title="Enter your first name" autocomplete="given-name" required>
+          </label>
+          <label>
+            Last Name
+            <input type="text" name="lastName" title="Enter your last name" autocomplete="family-name" required>
+          </label>
+          <label>
+            Organization Title
+            <input type="text" name="organizationTitle" title="Enter your organization title using at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" title="Enter your email address" autocomplete="email" placeholder="name@business.com" required>
+          </label>
+          <label>
+            Mobile Phone
+            <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel" required>
+          </label>
+          <label>
+            Business Name
+            <input type="text" name="organization" title="Enter your business or organization name" autocomplete="organization" required>
+          </label>
+          <label>
+            Membership Level
+            <select name="membership" title="Choose a membership level" required>
+              <option value="">Choose a level</option>
+              <option value="np">NP Membership</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+            </select>
+          </label>
+          <label>
+            Business Description
+            <textarea name="description" title="Describe your business or organization" rows="5"></textarea>
+          </label>
+          <input id="timestamp" type="hidden" name="timestamp">
+          <input class="form-button" type="submit" value="Send Application">
+        </form>
+      </section>
+
+      <section class="membership-cards" aria-label="Membership cards">
+        <article class="level-card">
+          <h2>NP Membership</h2>
+          <p>For nonprofit organizations.</p>
+          <button type="button" data-modal="npModal">More Info</button>
+        </article>
+        <article class="level-card">
+          <h2>Bronze Membership</h2>
+          <p>Good for new local businesses.</p>
+          <button type="button" data-modal="bronzeModal">More Info</button>
+        </article>
+        <article class="level-card">
+          <h2>Silver Membership</h2>
+          <p>More promotion and event benefits.</p>
+          <button type="button" data-modal="silverModal">More Info</button>
+        </article>
+        <article class="level-card">
+          <h2>Gold Membership</h2>
+          <p>Best visibility for active members.</p>
+          <button type="button" data-modal="goldModal">More Info</button>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <dialog id="npModal">
+    <h2>NP Membership</h2>
+    <p>No cost for nonprofit organizations. Includes directory listing and chamber updates.</p>
+    <button type="button" class="close-modal">Close</button>
+  </dialog>
+  <dialog id="bronzeModal">
+    <h2>Bronze Membership</h2>
+    <p>Includes directory listing, member newsletter, and event invitations.</p>
+    <button type="button" class="close-modal">Close</button>
+  </dialog>
+  <dialog id="silverModal">
+    <h2>Silver Membership</h2>
+    <p>Includes Bronze benefits plus training discounts and social media promotion.</p>
+    <button type="button" class="close-modal">Close</button>
+  </dialog>
+  <dialog id="goldModal">
+    <h2>Gold Membership</h2>
+    <p>Includes Silver benefits plus home page spotlight placement and special event recognition.</p>
+    <button type="button" class="close-modal">Close</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div>
+        <p class="footer-title">Machala Chamber of Commerce</p>
+        <p>Av. 25 de Junio y Rocafuerte</p>
+        <p>Machala, El Oro, Ecuador</p>
+        <p>info@machalachamber.ec</p>
+        <p>+593 7 298 4100</p>
+      </div>
+      <div>
+        <p>WDD 231 Chamber Project</p>
+        <p>Jeniffer Carrillo</p>
+        <p>&copy; <span id="currentyear"></span> Machala Chamber of Commerce</p>
+        <p id="lastModified"></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
