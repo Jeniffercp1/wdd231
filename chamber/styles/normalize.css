@@ -4,21 +4,11 @@
   box-sizing: border-box;
 }
 
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-}
-
 body {
   margin: 0;
 }
 
-main {
-  display: block;
-}
-
 img {
-  border-style: none;
   max-width: 100%;
   height: auto;
 }
@@ -26,8 +16,4 @@ img {
 button,
 input {
   font: inherit;
-}
-
-button {
-  cursor: pointer;
 }
