@@ -1,18 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
   color: #263c35;
   background: #f5efe3;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
   line-height: 1.5;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 a {
@@ -129,7 +119,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
   line-height: 1.15;
 }
 
