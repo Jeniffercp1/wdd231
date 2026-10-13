@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join Libro Cercano and share your favorite book, genre, and reading interests.">
+  <meta name="author" content="Jeniffer Carrillo">
+  <meta property="og:title" content="Join Libro Cercano">
+  <meta property="og:description" content="Send a simple reading club form and share what kind of books you enjoy.">
+  <meta property="og:image" content="https://jeniffercp1.github.io/wdd231/final/images/hero-books.svg">
+  <meta property="og:url" content="https://jeniffercp1.github.io/wdd231/final/join.html">
+  <meta property="og:type" content="website">
+  <title>Join | Libro Cercano</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script type="module" src="scripts/form.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Libro Cercano logo" width="220" height="72">
+      </a>
+      <button id="menuButton" class="menu-button" type="button" aria-label="Open menu" aria-controls="siteNav" aria-expanded="false"></button>
+    </div>
+    <nav id="siteNav" class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="join.html" aria-current="page">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">Join the club</p>
+      <h1>Share your reading taste</h1>
+      <p>Use this form to leave your name and tell the club what kind of books you like.</p>
+    </section>
+
+    <form class="join-form" method="get" action="thanks.html">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" autocomplete="name" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+
+      <label for="genre">Favorite Genre</label>
+      <select id="genre" name="genre" required>
+        <option value="">Choose one</option>
+        <option value="Classic">Classic</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Historical Fiction">Historical Fiction</option>
+        <option value="Latin American">Latin American</option>
+        <option value="Science Fiction">Science Fiction</option>
+      </select>
+
+      <label for="book">Favorite Book</label>
+      <input id="book" name="book" type="text" required>
+
+      <label for="message">What would you like to discuss?</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <input id="dateSent" name="dateSent" type="hidden">
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Jeniffer Carrillo</p>
+    <p><a href="attributions.html">Attributions</a></p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

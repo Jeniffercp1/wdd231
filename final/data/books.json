@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Classic",
+    "year": 1813,
+    "place": "Libreria Central",
+    "city": "Quito",
+    "summary": "A clever story about family, pride, and learning to see people clearly."
+  },
+  {
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupery",
+    "genre": "Fable",
+    "year": 1943,
+    "place": "Mr Books",
+    "city": "Guayaquil",
+    "summary": "A short book about friendship, wonder, and what matters most."
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "genre": "Latin American",
+    "year": 1967,
+    "place": "Libreria Espanola",
+    "city": "Cuenca",
+    "summary": "A family story full of memory, mystery, and history."
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "year": 1960,
+    "place": "Librimundi",
+    "city": "Quito",
+    "summary": "A story about justice, childhood, and doing what is right."
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "year": 1988,
+    "place": "Libreria Vida Nueva",
+    "city": "Machala",
+    "summary": "A simple journey about dreams, courage, and listening to the heart."
+  },
+  {
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "genre": "Classic",
+    "year": 1868,
+    "place": "Libreria Cientifica",
+    "city": "Guayaquil",
+    "summary": "Four sisters grow, work, love, and choose their own paths."
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Science Fiction",
+    "year": 1953,
+    "place": "Book Point",
+    "city": "Quito",
+    "summary": "A future world where books are dangerous and memory matters."
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Bronte",
+    "genre": "Classic",
+    "year": 1847,
+    "place": "Libreria Central",
+    "city": "Quito",
+    "summary": "A strong woman searches for dignity, love, and independence."
+  },
+  {
+    "title": "The House on Mango Street",
+    "author": "Sandra Cisneros",
+    "genre": "Coming of Age",
+    "year": 1984,
+    "place": "Mr Books",
+    "city": "Guayaquil",
+    "summary": "Small scenes show a young girl finding her voice."
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J. R. R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1937,
+    "place": "Librimundi",
+    "city": "Quito",
+    "summary": "A quiet homebody joins a journey full of danger and courage."
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Gothic",
+    "year": 1818,
+    "place": "Libreria Espanola",
+    "city": "Cuenca",
+    "summary": "A warning about ambition, loneliness, and responsibility."
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "genre": "Historical Fiction",
+    "year": 2005,
+    "place": "Libreria Vida Nueva",
+    "city": "Machala",
+    "summary": "A moving story about words and kindness during war."
+  },
+  {
+    "title": "A Room of One's Own",
+    "author": "Virginia Woolf",
+    "genre": "Essay",
+    "year": 1929,
+    "place": "Book Point",
+    "city": "Quito",
+    "summary": "A clear reflection about women, writing, and independence."
+  },
+  {
+    "title": "Like Water for Chocolate",
+    "author": "Laura Esquivel",
+    "genre": "Latin American",
+    "year": 1989,
+    "place": "Libreria Cientifica",
+    "city": "Guayaquil",
+    "summary": "Food, family, and love come together in a warm story."
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "genre": "Classic",
+    "year": 1952,
+    "place": "Libreria Central",
+    "city": "Quito",
+    "summary": "A fisherman faces the sea with patience and strength."
+  }
+]

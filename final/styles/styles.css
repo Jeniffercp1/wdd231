@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #263c35;
+  background: #f5efe3;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #d8d0bd;
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+}
+
+.brand img {
+  display: block;
+  width: 190px;
+}
+
+.menu-button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #263c35;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.menu-button::before {
+  content: "☰";
+  color: #263c35;
+  font-size: 1.6rem;
+}
+
+.menu-button.open::before {
+  content: "×";
+}
+
+.site-nav {
+  display: grid;
+  grid-template-rows: 0fr;
+  background: #263c35;
+}
+
+.site-nav.open {
+  grid-template-rows: 1fr;
+}
+
+.site-nav ul {
+  overflow: hidden;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  display: block;
+  padding: 0.9rem 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a[aria-current="page"] {
+  color: #263c35;
+  background: #e9b872;
+}
+
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 430px;
+  border-radius: 10px;
+  background: #263c35;
+}
+
+.hero img {
+  width: 100%;
+  min-height: 430px;
+  object-fit: cover;
+  opacity: 0.58;
+}
+
+.hero-text {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  max-width: 700px;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.eyebrow {
+  margin: 0 0 0.4rem;
+  color: #e9b872;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.15;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 2.2rem;
+}
+
+.button-link,
+button {
+  width: fit-content;
+  min-height: 44px;
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  background: #8a4f30;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button-link:hover,
+button:hover,
+button:focus {
+  background: #263c35;
+}
+
+.intro-grid,
+.book-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.intro-grid article,
+.book-card,
+.join-form,
+.response-card,
+.toolbar {
+  padding: 1rem;
+  border: 1px solid #d8d0bd;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.intro-grid h2,
+.book-card h2 {
+  margin-top: 0;
+}
+
+.feature-row {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.feature-row img {
+  border-radius: 8px;
+}
+
+.saved-note {
+  padding: 0.75rem;
+  border-left: 5px solid #c17d45;
+  background: #f5efe3;
+  font-weight: 700;
+}
+
+.page-heading {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #263c35;
+}
+
+.page-heading p {
+  max-width: 720px;
+}
+
+.toolbar {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+select,
+input,
+textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.65rem;
+  border: 1px solid #8a8f88;
+  border-radius: 6px;
+  color: #263c35;
+  background: #ffffff;
+  font: inherit;
+}
+
+label {
+  font-weight: 700;
+}
+
+.book-card {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.book-card p {
+  margin: 0;
+}
+
+.book-meta {
+  color: #5b665f;
+  font-weight: 700;
+}
+
+.join-form {
+  display: grid;
+  gap: 0.7rem;
+  max-width: 720px;
+}
+
+dialog {
+  max-width: 520px;
+  border: 1px solid #d8d0bd;
+  border-radius: 8px;
+  color: #263c35;
+  background: #ffffff;
+}
+
+dialog::backdrop {
+  background: rgb(0 0 0 / 0.55);
+}
+
+.site-footer {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 2rem;
+  padding: 1.25rem;
+  color: #ffffff;
+  background: #263c35;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #e9b872;
+}
+
+@media (min-width: 700px) {
+  .menu-button {
+    display: none;
+  }
+
+  .site-nav {
+    display: block;
+  }
+
+  .site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .intro-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .feature-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .book-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  h1 {
+    font-size: 3.1rem;
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 72">
+  <rect x="3" y="6" width="60" height="60" rx="14" fill="#263c35"/>
+  <path d="M20 19h22a9 9 0 0 1 9 9v25H28a8 8 0 0 1-8-8V19Z" fill="#f5efe3"/>
+  <path d="M28 19v26a8 8 0 0 0 8 8h15" fill="none" stroke="#c17d45" stroke-width="4"/>
+  <path d="M28 28h13M28 36h15M28 44h9" stroke="#263c35" stroke-width="3" stroke-linecap="round"/>
+  <text x="78" y="33" fill="#263c35" font-family="Georgia, serif" font-size="24" font-weight="700">Libro Cercano</text>
+  <text x="80" y="52" fill="#5b665f" font-family="Arial, sans-serif" font-size="13">book club and local finder</text>
+</svg>

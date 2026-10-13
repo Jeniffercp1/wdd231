@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse a book directory with titles, authors, genres, and possible bookstore locations in Ecuador.">
+  <meta name="author" content="Jeniffer Carrillo">
+  <meta property="og:title" content="Libro Cercano Book Directory">
+  <meta property="og:description" content="Find books by genre and review simple details before choosing what to read next.">
+  <meta property="og:image" content="https://jeniffercp1.github.io/wdd231/final/images/library-map.svg">
+  <meta property="og:url" content="https://jeniffercp1.github.io/wdd231/final/books.html">
+  <meta property="og:type" content="website">
+  <title>Books | Libro Cercano</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script type="module" src="scripts/books.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Libro Cercano logo" width="220" height="72">
+      </a>
+      <button id="menuButton" class="menu-button" type="button" aria-label="Open menu" aria-controls="siteNav" aria-expanded="false"></button>
+    </div>
+    <nav id="siteNav" class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html" aria-current="page">Books</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">Book finder</p>
+      <h1>Book Directory</h1>
+      <p>Choose a genre and open any book card to see more details.</p>
+    </section>
+
+    <section class="toolbar" aria-label="Book filters">
+      <label for="genreFilter">Genre</label>
+      <select id="genreFilter">
+        <option value="all">All books</option>
+      </select>
+      <p id="bookCount"></p>
+    </section>
+
+    <section id="bookGrid" class="book-grid" aria-live="polite"></section>
+  </main>
+
+  <dialog id="bookDialog">
+    <div id="dialogContent"></div>
+    <button id="closeDialog" type="button">Close</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Jeniffer Carrillo</p>
+    <p><a href="attributions.html">Attributions</a></p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

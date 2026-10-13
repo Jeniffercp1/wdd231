@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540">
+  <rect width="900" height="540" fill="#f5efe3"/>
+  <path d="M84 420c114-98 175-125 281-72 102 51 168 24 246-62 78-85 128-115 205-83" fill="none" stroke="#d8d0bd" stroke-width="42" stroke-linecap="round"/>
+  <path d="M84 420c114-98 175-125 281-72 102 51 168 24 246-62 78-85 128-115 205-83" fill="none" stroke="#6a8f78" stroke-width="8" stroke-dasharray="18 18" stroke-linecap="round"/>
+  <g fill="#263c35">
+    <circle cx="170" cy="365" r="18"/>
+    <circle cx="382" cy="342" r="18"/>
+    <circle cx="611" cy="284" r="18"/>
+    <circle cx="755" cy="212" r="18"/>
+  </g>
+  <g fill="#c17d45">
+    <rect x="125" y="120" width="88" height="110" rx="10"/>
+    <rect x="240" y="95" width="88" height="135" rx="10"/>
+    <rect x="355" y="135" width="88" height="95" rx="10"/>
+    <rect x="470" y="86" width="88" height="144" rx="10"/>
+  </g>
+  <g fill="#263c35">
+    <rect x="142" y="148" width="54" height="8" rx="4"/>
+    <rect x="257" y="128" width="54" height="8" rx="4"/>
+    <rect x="372" y="160" width="54" height="8" rx="4"/>
+    <rect x="487" y="122" width="54" height="8" rx="4"/>
+  </g>
+  <text x="600" y="110" fill="#263c35" font-family="Georgia, serif" font-size="44" font-weight="700">Find a book</text>
+  <text x="602" y="154" fill="#5b665f" font-family="Arial, sans-serif" font-size="24">then find the place</text>
+</svg>
